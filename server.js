@@ -17,6 +17,9 @@ const io = socketio(server);
 // Set static dir
 app.use(express.static(path.join(__dirname, "public")));
 
+// Set Timezone
+process.env.TZ = "Asia/Jakarta";
+
 const botName = "Mederator Bot";
 
 // Run when client connects
