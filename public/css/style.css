@@ -184,6 +184,23 @@ a {
   width: 100%;
 }
 
+.footer {
+  text-align: center;
+  margin: auto;
+  background-color: var(--dark-color-a);
+  border-radius: 0 0 5px 5px;
+  padding: 5px 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer a:hover {
+  color: var(--light-color);
+}
+
 @media (max-width: 700px) {
   .chat-main {
     display: block;
